@@ -173,6 +173,28 @@ namespace wServer.logic
                             new RandomTaunt(1.1, "WHAT, I'LL BE IN THE NEW SMASH BROS?!"))
 					                  ))
         	                     ))
+        	.Init(0x716f, Behaves("Lil' Avatarr",
+                new RunBehaviors(
+               If.Instance(new PetBehaves(), PetChasing.Instance(10, 10, 3)),
+               Cooldown.Instance(1000, new PetsHealingHP(90, 90)),
+               Cooldown.Instance(1000, new PetsHealingMP(45, 45))
+             )
+           )) 
+        	.Init(0x7171, Behaves("Lil' Navii",
+                new RunBehaviors(
+                    If.Instance(new PetBehaves(), PetChasing.Instance(13, 8, 3)),
+                    Cooldown.Instance(800, new PetsHealingHP(200, 200)),
+                    Cooldown.Instance(800, new PetsHealingMP(200, 200)),
+                     Cooldown.Instance(105000,
+                        Rand.Instance(
+                            new RandomTaunt(1.1, "LINK, LISTEN!"),
+                            new RandomTaunt(4.9, "I love you!"),
+                            new RandomTaunt(1.1, "LISTEN LINK, HEY!"),
+                            new RandomTaunt(1.01, "LINK!?"),
+                            new RandomTaunt(1.1, "LISTENNNNNNNN!"))
+					                  ))
+        	                     ))
+        	
             
             ;
     }

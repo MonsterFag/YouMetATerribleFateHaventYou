@@ -597,6 +597,7 @@
     <EmbeddedResource Include="realm\worlds\UDL5.wmap" />
     <EmbeddedResource Include="realm\worlds\UDL6.wmap" />
     <EmbeddedResource Include="realm\worlds\epicpcave.wmap" />
+    <EmbeddedResource Include="realm\worlds\shaitan.wmap" />
     <None Include="realm\worlds\vault.jm" />
     <None Include="realm\worlds\vaultnew.wmap" />
     <EmbeddedResource Include="realm\worlds\ZombieMap.wmap" />

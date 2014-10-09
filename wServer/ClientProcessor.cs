@@ -33,7 +33,7 @@ namespace wServer
         public uint UpdateAckCount = 0;
         private Account account;
         private Char character;
-        public string clientVer = "2.1.4"; //Might want this
+        public string clientVer = "2.1.5"; //Might want this
         private Database db;
         private Player entity;
         private NetworkHandler handler;

@@ -6322,7 +6322,7 @@
     <ArcGap>0</ArcGap>
     <OldSound>magicShoot</OldSound>
   </Object>
-  <Ground type="0x30" id="Shaitan Floor1">
+  <Ground type="0xac" id="Shaitan Floor1">
     <RandomTexture>
       <Texture>
         <File>lofiObj3</File>
@@ -6342,7 +6342,7 @@
       </Texture>
     </RandomTexture>
   </Ground>
-  <Ground type="0x31" id="Shaitan Floor2">
+  <Ground type="0xad" id="Shaitan Floor2">
     <Texture>
       <File>lofiObj3</File>
       <Index>0x3e3</Index>
@@ -6362,6 +6362,7 @@
         <Index>55</Index>
     </AnimatedTexture>
     <SlotType>10</SlotType>
+	<ScaleValue>3</ScaleValue>
     <Description>Every evil boss creates miniature versions of himself.  It's the real one.</Description>
     <Sound>spell/light_heal</Sound>
     <Consumable />
@@ -6398,6 +6399,7 @@
         <Index>57</Index>
     </AnimatedTexture>
     <SlotType>10</SlotType>
+	<ScaleValue>3</ScaleValue>
     <Description>Every evil boss creates miniature versions of himself.  It's the real one.</Description>
     <Sound>spell/light_heal</Sound>
     <Consumable />
@@ -6463,6 +6465,7 @@
     <Sound>spell/light_heal</Sound>
     <InvUse/>
     <VaultItem/>
+	<Soulbound/>
     <ScaleValue>3</ScaleValue>
     <Activate objectId="Kirbyy" cooldown="10">PermaPet</Activate>
     <OldSound>use_potion</OldSound>
@@ -6731,5 +6734,88 @@
     <ActivateOnEquip stat="3" amount="120">IncrementStat</ActivateOnEquip>
     <BagType>4</BagType>
     <FameBonus>10</FameBonus>
+  </Object>
+	<Object type="0x716e" id="Lil' Avatarr Generator">
+    <DisplayId>Lil' Gender</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5398954398187520</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+	<ScaleValue>3</ScaleValue>
+    <Description>Every evil boss creates miniature versions of himself.  It's the real one.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+	<Soulbound />
+    <Activate objectId="Lil' Avatarr" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x716f" id="Lil' Avatarr">
+    <DisplayId>Lil' Avatar</DisplayId>
+    <Class>Character</Class>
+    <Group>Hexable</Group>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5398954398187520</Id>
+    </RemoteTexture>
+    <Projectile id="0">
+			<ObjectId>H Baby Blast</ObjectId>
+			<Speed>60</Speed>
+			<Damage>50</Damage>
+			<Size>40</Size>
+			<LifetimeMS>1500</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>		
+    <NoMiniMap />
+    <Size>200</Size>
+    <ShadowSize>70</ShadowSize>
+  </Object>
+	<Object type="0x7170" id="Lil' Navii Generator">
+    <DisplayId>Navi</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5869133930430464</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>Are you a LoZ fan? No? Get the fuck out of here!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+	<Soulbound />
+    <Activate objectId="Lil' Navii" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7171" id="Lil' Navii">
+    <DisplayId>Navi</DisplayId>
+    <Class>Character</Class>
+    <Group>Hexable</Group>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5869133930430464</Id>
+    </RemoteTexture>
+    <Projectile id="0">
+			<ObjectId>H Baby Blast</ObjectId>
+			<Speed>60</Speed>
+			<Damage>50</Damage>
+			<Size>40</Size>
+			<LifetimeMS>1500</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>		
+    <NoMiniMap />
+    <Size>40</Size>
+    <ShadowSize>70</ShadowSize>
+  </Object>
+<Object type="0x7173" id="BledOwlBolt">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5177396295630848</Id>
+    </RemoteTexture>
+	<Rotation>40</Rotation>
   </Object>
 </Remote>

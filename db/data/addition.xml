@@ -637,9 +637,7 @@
     <Activate stat="3" amount="800">IncrementStat</Activate>
     <Consumable />
     <Potion />
-    <SUndead />
     <BagType>4</BagType>
-    <Soulbound />
   </Object>
   <Object type="0xff9" id="Island Key">
     <Class>Equipment</Class>
@@ -3231,30 +3229,6 @@
     <Defense>10</Defense>
   </Object>
 
-  <Object type="0xe79" id="Nuke">
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>lofiObj3</File>
-      <Index>0x227</Index>
-    </Texture>
-    <SlotType>24</SlotType>
-    <Tier>9001</Tier>
-    <Description>A goddamn Nuke, run for your life</Description>
-    <RateOfFire>100</RateOfFire>
-    <Sound>weapon/long_sword</Sound>
-    <Projectile>
-      <ObjectId>Muramasa Slash</ObjectId>
-      <Speed>1200</Speed>
-      <MinDamage>9001</MinDamage>
-      <MaxDamage>10000</MaxDamage>
-      <LifetimeMS>350</LifetimeMS>
-      <MultiHit />
-    </Projectile>
-    <BagType>8</BagType>
-    <FameBonus>1000</FameBonus>
-    <Soulbound />
-  </Object>
   <Object type="0x1A70" id="Dragon Wall Purple">
     <Class>Wall</Class>
     <RandomTexture>

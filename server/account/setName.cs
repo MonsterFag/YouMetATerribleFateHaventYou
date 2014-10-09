@@ -20,7 +20,7 @@ namespace server.account
             {
                 Account acc = db.Verify(query["guid"], query["password"]);
                 byte[] status;
-                if (acc == null)
+                if (acc == null | acc.Credits < 1001)
                 {
                     status = Encoding.UTF8.GetBytes("<Error>Bad login</Error>");
                 }

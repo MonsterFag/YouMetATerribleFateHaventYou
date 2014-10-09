@@ -19,7 +19,7 @@ namespace terrain
                 var fi = new FileInfo(args[0]);
                 if (fi.Exists)
                     if (args.Length != 3)
-                        terrain.Json2Wmap.Convert(args[0], args[1]);
+					Json2Wmap.Convert(args[0], args[1]);
                     else
                         terrain.Json2Wmap.ConvertReverse(args[0], args[1]);
                 else
